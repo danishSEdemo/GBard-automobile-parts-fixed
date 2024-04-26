@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rev Up Your Ride - Auto Parts</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-ZenhBwFWvTbkzglm9TLs1IuQp+EJxn5zYLvAo79uCvzvPE1MKYoUwAm7mXbzqMQEy" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #dddfe2;
+    }
+    .banner {
+      background-image: url("images/banner.jpg"); /* Replace with your banner image */
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+    }
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px;
+    }
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product-details {
+      text-align: center;
+    }
+    #featured-products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    /* Fix for button contrast */
+    .btn-primary {
+      color: #fff; /* Change text color to white for better contrast */
+    }
+  </style>
+</head>
+<body>
+
+  <header class="container-fluid banner">
+    <h1 class="text-white text-center display-3 py-5">Rev Up Your Ride</h1>
+  </header>
+
+  <main class="container">
+    <section id="featured-products">
+      <div class="product-card col-md-4">
+        <img src="images/exhaust.jpg" alt="Exhaust System">
+        <div class="product-details">
+          <h3>Performance Exhaust Systems</h3>
+          <p>Boost horsepower and improve sound.</p>
+          <a href="#" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+      <div class="product-card col-md-4">
+        <img src="images/rims.jpg" alt="Custom Rims">
+        <div class="product-details">
+          <h3>Custom Rims & Wheels</h3>
+          <p>Upgrade your style and performance.</p>
+          <a href="#" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+      </section>
+
+    <section class="container py-5">
+      <h2>Why Choose Us?</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam, odio eu pretium euismod, massa tortor auctor odio, at tincidunt tellus elit nec odio. Sed vel leo dui. Donec eu libero sit amet quam egestas semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur.</p>
+      <ul>
+        <li>High-quality parts and accessories</li>
+        <li>Competitive prices</li>
+        <li>Fast shipping</li>
+        <li>Expert advice</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="container-fluid text-center py-3 bg-dark text-white">
+    <p>&copy; Rev Up Your Ride - 2024</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2K8uLrtxWjqyhpSiqeICw+vsibTxBgfryWEa1EV2qUKEKIGlxl67UTRiGAz" crossorigin="anonymous"></script>
+</body>
+</html>
